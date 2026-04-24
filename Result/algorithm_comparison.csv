@@ -1,0 +1,26 @@
+scenario_id,scenario_name,algorithm,success,path_distance_m,path_distance_km,computation_time_s,nodes_explored,raw_waypoints,smoothed_waypoints,detour_ratio,direct_distance_m,travel_time_min
+S1_NorthSouth,North to South (long),A*,True,8354.3,8.354,0.0506,156,156,6,1.0,8332.9,10.0
+S1_NorthSouth,North to South (long),Best-First Search,True,8356.6,8.357,0.0065,163,163,5,1.0,8332.9,10.0
+S1_NorthSouth,North to South (long),BFS,True,8432.6,8.433,0.1791,156,156,5,1.01,8332.9,10.1
+S1_NorthSouth,North to South (long),Theta*,True,8356.6,8.357,0.0194,165,5,5,1.0,8332.9,10.0
+S1_NorthSouth,North to South (long),RRT*,False,0,0,0,0,0,0,0,8332.9,0
+S2_EastWest,East to West (medium),A*,True,9933.8,9.934,0.0568,201,201,4,1.0,9919.0,11.9
+S2_EastWest,East to West (medium),Best-First Search,True,10038.3,10.038,0.0229,210,210,3,1.01,9919.0,12.0
+S2_EastWest,East to West (medium),BFS,True,9935.0,9.935,0.3683,201,201,4,1.0,9919.0,11.9
+S2_EastWest,East to West (medium),Theta*,True,9935.1,9.935,0.1881,1111,4,4,1.0,9919.0,11.9
+S2_EastWest,East to West (medium),RRT*,True,9958.5,9.959,46.6557,14095,21,5,1.0,9919.0,12.0
+S3_ShortHop,Short hop (nearby),A*,True,1621.2,1.621,0.0025,30,30,4,1.09,1490.2,1.9
+S3_ShortHop,Short hop (nearby),Best-First Search,True,1621.2,1.621,0.0014,31,31,4,1.09,1490.2,1.9
+S3_ShortHop,Short hop (nearby),BFS,True,1621.2,1.621,0.0097,30,30,4,1.09,1490.2,1.9
+S3_ShortHop,Short hop (nearby),Theta*,True,1621.2,1.621,0.0056,184,4,4,1.09,1490.2,1.9
+S3_ShortHop,Short hop (nearby),RRT*,False,0,0,0,0,0,0,0,1490.2,0
+S4_Diagonal,Diagonal NE to SW (long),A*,True,15914.3,15.914,0.1361,246,246,5,1.01,15748.7,19.1
+S4_Diagonal,Diagonal NE to SW (long),Best-First Search,True,15919.1,15.919,0.0572,246,246,5,1.01,15748.7,19.1
+S4_Diagonal,Diagonal NE to SW (long),BFS,True,15914.3,15.914,0.7163,246,246,5,1.01,15748.7,19.1
+S4_Diagonal,Diagonal NE to SW (long),Theta*,True,15918.5,15.918,0.6317,3712,9,4,1.01,15748.7,19.1
+S4_Diagonal,Diagonal NE to SW (long),RRT*,True,15879.5,15.879,50.6932,13995,31,4,1.01,15748.7,19.1
+S5_CityCenter,City center traverse,A*,True,6368.4,6.368,0.0096,121,121,3,1.0,6353.3,7.6
+S5_CityCenter,City center traverse,Best-First Search,True,6614.4,6.614,0.0086,121,121,3,1.04,6353.3,7.9
+S5_CityCenter,City center traverse,BFS,True,6462.7,6.463,0.2065,121,121,3,1.02,6353.3,7.8
+S5_CityCenter,City center traverse,Theta*,True,6462.7,6.463,0.0201,158,3,3,1.02,6353.3,7.8
+S5_CityCenter,City center traverse,RRT*,True,6369.3,6.369,49.1575,13902,14,3,1.0,6353.3,7.6

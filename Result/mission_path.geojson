@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "flight_path"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.77985,
+            26.919975
+          ],
+          [
+            75.80385,
+            26.865075
+          ],
+          [
+            75.80534999999999,
+            26.859675
+          ],
+          [
+            75.80635,
+            26.858775
+          ],
+          [
+            75.80935,
+            26.854725000000002
+          ],
+          [
+            75.80985,
+            26.850225000000002
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "start_point",
+        "label": "PICKUP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.77985,
+          26.919975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "end_point",
+        "label": "DROP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.80985,
+          26.850225000000002
+        ]
+      }
+    }
+  ]
+}
